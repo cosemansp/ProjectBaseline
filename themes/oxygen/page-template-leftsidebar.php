@@ -1,9 +1,8 @@
 <?php
 /**
- * Page Template
+ * Template Name: Left Sidebar
  *
- * This is the default page template.  It is used when a more specific template can't be found to display 
- * singular views of pages.
+ * Page template with left sidebar only.
  *
  * @package Oxygen
  * @subpackage Template
@@ -24,7 +23,6 @@ get_header(); // Loads the header.php template. ?>
 	<div class="content-wrap">
 
 		<div id="content">
-	
 			<?php do_atomic( 'open_content' ); // oxygen_open_content ?>
 	
 			<div class="hfeed">
@@ -72,5 +70,5 @@ get_header(); // Loads the header.php template. ?>
 		</div><!-- #content -->
 	
 		<?php do_atomic( 'after_content' ); // oxygen_after_content ?>
-<?php get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
+
 <?php get_footer(); // Loads the footer.php template. ?>

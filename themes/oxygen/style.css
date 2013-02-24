@@ -510,12 +510,31 @@ input[type="submit"]:hover { cursor: pointer }
 	margin: 0 auto;
 	position: relative;
 }
-.page-template-fullwidth #content { width: 100%; }
+.page-template-fullwidth #content { 
+	width: 100%; 
+}
+.page-template-fullwidth .content-wrap {
+ 	width: 100%; 
+}
+.page-template-leftsidebar #content { 
+	width: 100%; 
+}
+.page-template-leftsidebar .content-wrap {
+ 	width: 79.78723404255319%; 				/* 750 / 940 = 0.79787234042553 */
+}
+.page-template-pve #content { 
+	width: 100%; 
+}
+.page-template-pve #content .entry-content{ 
+	width: 65%; 
+}
+.page-template-pve .content-wrap {
+ 	width: 79.78723404255319%; 				/* 750 / 940 = 0.79787234042553 */
+}
 .content-wrap {
 	float: right;
 	width: 79.78723404255319%;	/* 750 / 940 = 0.79787234042553 */
 }
-.page-template-fullwidth .content-wrap { width: 100%; }
 #content {
 	float: left;
 	width: 62.66666666666667%;	/* 470 / 750 = 0.6266666666666667 */

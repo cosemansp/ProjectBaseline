@@ -27,7 +27,7 @@ function oxygen_theme_setup() {
 
 	/* Add theme support for core framework features. */
 	add_theme_support( 'hybrid-core-menus', array( 'primary', 'secondary', 'subsidiary' ) );
-	add_theme_support( 'hybrid-core-sidebars', array( 'primary', 'secondary', 'subsidiary', 'after-singular', 'header' ) );
+	add_theme_support( 'hybrid-core-sidebars', array( 'primary', 'secondary', 'subsidiary', 'after-singular', 'header', 'secondary-pve' ) );
 	add_theme_support( 'hybrid-core-widgets' );
 	add_theme_support( 'hybrid-core-theme-settings', array( 'about', 'footer' ) );
 	add_theme_support( 'hybrid-core-meta-box-footer' );
@@ -130,6 +130,8 @@ function oxygen_embed_defaults( $args ) {
 		
 	if ( is_page_template( 'page-template-fullwidth.php' ) )
 		$args['width'] = 940;
+	if ( is_page_template( 'page-template-leftsidebar.php' ) )
+		$args['width'] = 750;
 
 	return $args;
 }

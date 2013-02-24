@@ -13,7 +13,7 @@
 ?>
 				
 				
-				<?php get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
+				<?php //get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
 				
 				</div><!-- .content-wrap -->
 

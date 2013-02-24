@@ -35,7 +35,7 @@ if ( $loop->have_posts() ) : ?>
 			<span id="slider-next" class="slider-nav">&rarr;</span>
 			
 		</div><!-- #featured-content -->
-				
+		<!--		
 		<div id="slider-nav">
 		
 			<ul id="slide-thumbs">
@@ -57,7 +57,7 @@ if ( $loop->have_posts() ) : ?>
 					
 			</ul>
 			
-		</div><!-- #slider-nav-->
+		</div> --> <!-- #slider-nav-->
 	   
 	</div><!-- .featured-wrapper-->
 	

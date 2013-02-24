@@ -110,6 +110,10 @@ function hybrid_get_sidebars() {
 		'after-singular' => array(
 			'name' =>	_x( 'After Singular', 'sidebar', 'hybrid-core' ),
 			'description' =>	__( 'Loaded on singular post (page, attachment, etc.) views before the comments area.', 'hybrid-core' ),
+		),
+		'secondary-pve' => array(
+			'name' =>	_x( 'Secondary-pve', 'sidebar', 'hybrid-core' ),
+			'description' =>	__( 'Used on put van ekeren template', 'hybrid-core' ),
 		)
 	);
 

@@ -85,4 +85,6 @@ get_header(); // Loads the header.php template. ?>
 	
 		<?php do_atomic( 'after_content' ); // oxygen_after_content ?>
 
+		<?php get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
+
 <?php get_footer(); // Loads the footer.php template. ?>
