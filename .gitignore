@@ -12,3 +12,7 @@
 /wp-content/plugins/shortcoder/
 /wp-content/plugins/use-shortcodes-in-sidebar-widgets/
 /wp-content/plugins/widgets-controller/
+
+/wp-includes/
+/wp-admin/
+/wp-content/gallery/
